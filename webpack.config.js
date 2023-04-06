@@ -17,7 +17,7 @@ module.exports = {
           loader: 'babel-loader',
           options: {
             presets: ['babel-preset-env', 'babel-preset-react'],
-	    plugins: ["react-hot-loader/babel"],
+	          plugins: ["react-hot-loader/babel"],
           },
         },
       },
@@ -27,7 +27,7 @@ module.exports = {
         use: [
           { loader: 'style-loader' },
           { loader: 'css-loader' },
-	 // { loader: 'sass-loader' },
+	         // { loader: 'sass-loader' },
         ],
       },
       {
